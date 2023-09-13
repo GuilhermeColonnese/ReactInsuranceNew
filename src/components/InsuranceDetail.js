@@ -99,7 +99,7 @@ function InsuranceDetail(props) {
     }
 
     function fetchPackage(){
-        LiferayApi("o/headless-admin-list-type/v1.0/list-type-definitions/45766")
+        LiferayApi("o/headless-admin-list-type/v1.0/list-type-definitions/45762")
         .then((result) => {
             console.log("Get list-type-definitions Package");
             console.log(result.data.listTypeEntries);
